@@ -22,7 +22,7 @@
             <span>fechar</span>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="./assets/img/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg" alt="">
             </div>
@@ -33,23 +33,146 @@
             </div>
         </header>
         
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#interesses" class="menu-link">Interesses</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-github"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
             </div>
             
-        </div>
+        </aside>
         
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>
+                            Atualmente estudando para dominar a linguagem e desenvolver páginas mais acessíveis e performáticas.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>
+                            Linguagem que eu pretendo me especializar, de modo a unir tecnologia com criatividade.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>
+                            Linguagem que me apresentou a programação e fez eu ingressar na área, tenho grande interesse em me tornar referência em JavaScript.
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="./assets/img/file-20180927-48634-1e6x79f.jpg" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-interesses" id="interesses">
+            <div class="sessao-header">
+                <h1>Interesses</h1>
+            </div>
+            <div class="interesses">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./assets/img/ryan-graybill-FWNCU0FpOGU-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Esportes</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque itaque minima omnis blanditiis repudiandae molestias quaerat eos possimus mollitia ut temporibus voluptates porro odit eveniet a, saepe vitae neque fugiat?</p>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./assets/img/pablo-de-la-fuente-UPexcwb9S94-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Musica</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quos minima repudiandae perferendis excepturi quisquam magnam enim? Magnam voluptatem nisi ex ipsum dolores, officia quos. Error sed odio dolores ad?</p>
+                    </div>
+                </div>    
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./assets/img/nikita-kachanovsky-FJFPuE1MAOM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Games e Tecnologia</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae autem reiciendis est consequatur alias voluptates magni quod rerum maiores nobis, assumenda laudantium, iusto beatae cumque doloremque eos? Quaerat, inventore in.</p>
+                    </div>
+                </div>
+
+            </div>   
+        </section>
+
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left">
+
+                </div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="btn-submit" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2023, Pedro Henrique Gouvea Bottoni - Todos os direitos reservados.
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li class="li"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="li"><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li class="li"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
     
 </body>
